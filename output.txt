@@ -4,19 +4,33 @@ Please find output :
 
  BEGIN Display of Adjacency list 
 0: 1,2,
-1: 0,
-2: 3,
-3: 4,
+1: 2,
+2: 
+3: 4,5,
 4: 5,
-5: 3,
+5: 
  END Display of Adjaceny list 
  BEGIN Display of Adjacency matrix 
 0:0,1,1,0,0,0,
-1:1,0,0,0,0,0,
-2:0,0,0,1,0,0,
-3:0,0,0,0,1,0,
+1:0,0,1,0,0,0,
+2:0,0,0,0,0,0,
+3:0,0,0,0,1,1,
 4:0,0,0,0,0,1,
-5:0,0,0,1,0,0,
- END Display of Adjaceny matrix
+5:0,0,0,0,0,0,
+ END Display of Adjaceny matrix 
 
  Adjacency list and matrix are same , they correlate with the edges added too !
+
+ Q2 :: 
+
+For Adjacency List and performing DFS , BFS using same
+to get connected components as below
+
+ Begin Connected Components using DFS ! 
+0 1 2 
+3 4 5 
+ End Connected Components using DFS ! 
+ Begin Connected Components using BFS ! 
+0 1 2 
+3 4 5 
+ End Connected Components using BFS ! 
